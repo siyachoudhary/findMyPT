@@ -40,8 +40,15 @@ img {
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
-  margin-top: 6rem;
-  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+}
+
+.containerAlert {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 5.5rem;
 }
 
 /* Text Styles*/
@@ -150,7 +157,7 @@ img {
 
 .alert {
   padding: 0.8rem;
-  margin: 1rem 0;
+  margin: .75rem 0;
   opacity: 0.9;
   background: var(--light-color);
   color: #333;
@@ -337,7 +344,7 @@ button {
 .landing {
   position: relative;
   background: url('./img/showcase.jpg') no-repeat center center/cover;
-  height: 100vh;
+  height: 90.75vh;
 }
 
 .landing-inner {
@@ -581,6 +588,7 @@ button {
 
 .logo{
   width: 10%;
+  height: auto;
   margin: 0.75px;
   padding: 1px;
 }
